@@ -1,7 +1,6 @@
 var express = require("express");
 var router = express.Router();
 
-require("../models/connection");
 const Places = require("../models/places");
 
 // post d'un nouvel emplacement avec le user qui lui est associé
